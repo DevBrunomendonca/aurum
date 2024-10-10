@@ -14,6 +14,12 @@ const modaniRegular = localFont({
   weight: "400",
 })
 
+const modaniBold = localFont({
+  src: "./_fonts/MadaniArabicBold.ttf",
+  variable: "--font-modani-arabic-bold",
+  weight: "700",
+})
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -21,7 +27,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br">
-      <body className={modaniRegular.className}>
+      <body className={`${modaniRegular.className} ${modaniBold.variable}`}>
         <Header />
         {children}
       </body>
