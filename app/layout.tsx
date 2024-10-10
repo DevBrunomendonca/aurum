@@ -2,6 +2,7 @@ import type { Metadata } from "next"
 import "./globals.css"
 import React from "react"
 import localFont from "next/font/local"
+import Header from "./_components/header"
 
 export const metadata: Metadata = {
   title: "Aurum Capital",
@@ -9,7 +10,7 @@ export const metadata: Metadata = {
 }
 
 const modaniRegular = localFont({
-  src: "./fonts/MadaniArabicRegular.ttf",
+  src: "./_fonts/MadaniArabicRegular.ttf",
   weight: "400",
 })
 
@@ -20,7 +21,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br">
-      <body className={modaniRegular.className}> {children}</body>
+      <body className={modaniRegular.className}>
+        <Header />
+        {children}
+      </body>
     </html>
   )
 }
