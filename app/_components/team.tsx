@@ -22,16 +22,20 @@ const Team = () => {
               <div className="flex w-full items-center justify-center pl-[100px] md:w-3/5">
                 <ProfileTeam srcProfile="/perfil-1.png" />
                 <ProfileTeam
-                  className="-translate-x-[25px]"
+                  className="-translate-x-[20px]"
                   srcProfile="/perfil-4.png"
                 />
                 <ProfileTeam
-                  className="-translate-x-[50px]"
+                  className="-translate-x-[40px]"
                   srcProfile="/perfil-5.png"
                 />
                 <ProfileTeam
-                  className="-translate-x-[75px]"
+                  className="-translate-x-[60px]"
                   srcProfile="/perfil-2.png"
+                />
+                <ProfileTeam
+                  className="-translate-x-[80px]"
+                  srcProfile="/perfil-6.png"
                 />
                 <ProfileTeam
                   className="-translate-x-[100px]"
