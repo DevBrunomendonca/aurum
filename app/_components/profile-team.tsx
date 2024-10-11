@@ -11,9 +11,10 @@ const ProfileTeam = ({ srcProfile, className }: ProfileTeamProps) => {
     <Image
       src={srcProfile}
       alt="Icone Perfil"
-      height={80}
-      width={80}
-      className={`${className} rounded-full border-[1px] border-white`}
+      height={0}
+      width={0}
+      sizes="100vh"
+      className={`${className} h-[60px] w-[60px] rounded-full border-[1px] border-white object-cover`}
     />
   )
 }
