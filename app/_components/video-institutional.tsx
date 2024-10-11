@@ -4,7 +4,7 @@ import React from "react"
 
 const VideoInstitutional = () => {
   return (
-    <section className="">
+    <section>
       <div className="flex min-h-[600px] items-center justify-center bg-[url('/banner-video.png')] bg-cover bg-center bg-no-repeat">
         <div className="rounded-full bg-white p-4">
           <Play color="#F3E902" size={40} />

@@ -3,6 +3,7 @@ import "./globals.css"
 import React from "react"
 import localFont from "next/font/local"
 import Header from "./_components/header"
+import Footer from "./_components/footer"
 
 export const metadata: Metadata = {
   title: "Aurum Capital",
@@ -30,6 +31,7 @@ export default function RootLayout({
       <body className={`${modaniRegular.className} ${modaniBold.variable}`}>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   )
