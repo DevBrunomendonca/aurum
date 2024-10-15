@@ -41,9 +41,9 @@ const Footer = () => {
           </Link>
           <Link
             className="text-sm text-white transition-all delay-75 hover:text-yellow-color"
-            href="/servicos"
+            href="/produtos"
           >
-            Serviços
+            Produtos
           </Link>
           <Link
             className="text-sm text-white transition-all delay-75 hover:text-yellow-color"
