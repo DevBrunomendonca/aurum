@@ -23,23 +23,19 @@ const Team = () => {
                 <ProfileTeam srcProfile="/perfil-1.png" />
                 <ProfileTeam
                   className="-translate-x-[20px]"
-                  srcProfile="/perfil-4.png"
-                />
-                <ProfileTeam
-                  className="-translate-x-[40px]"
-                  srcProfile="/perfil-5.png"
-                />
-                <ProfileTeam
-                  className="-translate-x-[60px]"
                   srcProfile="/perfil-2.png"
                 />
                 <ProfileTeam
-                  className="-translate-x-[80px]"
-                  srcProfile="/perfil-6.png"
+                  className="-translate-x-[40px]"
+                  srcProfile="/perfil-3.png"
                 />
                 <ProfileTeam
-                  className="-translate-x-[100px]"
-                  srcProfile="/perfil-3.png"
+                  className="-translate-x-[60px]"
+                  srcProfile="/perfil-4.png"
+                />
+                <ProfileTeam
+                  className="-translate-x-[80px]"
+                  srcProfile="/perfil-5.png"
                 />
               </div>
               <div className="flex w-full flex-col items-center md:w-2/5 md:items-start">

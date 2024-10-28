@@ -42,7 +42,7 @@ const About = () => {
             >
               <Image src="/icone-wtpp.svg" alt="" width={17} height={17} />
               <button className="pt-1 text-center text-sm text-black">
-                Quero me inscrever
+                Fale conosco
               </button>
             </a>
             <a className="group/edit w-full text-yellow-color" href="">

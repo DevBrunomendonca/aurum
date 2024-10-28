@@ -19,15 +19,21 @@ const ListNavHeader = () => {
         </Link>
         <Link
           className="text-sm text-white transition-all delay-75 hover:text-yellow-color"
-          href="/produtos"
+          href="/servicos"
         >
-          <li>Produtos</li>
+          <li>Serviços</li>
         </Link>
         <Link
           className="text-sm text-white transition-all delay-75 hover:text-yellow-color"
           href="/contato"
         >
           <li>Contato</li>
+        </Link>
+        <Link
+          className="text-sm text-white transition-all delay-75 hover:text-yellow-color"
+          href="/workshop"
+        >
+          <li>Workshop</li>
         </Link>
       </ul>
       <a

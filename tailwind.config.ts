@@ -12,6 +12,12 @@ const config: Config = {
         "black-color": "#080D10",
         "yellow-color": "#F3E902",
       },
+      keyframes: {
+        showMenuBurguer: {
+          from: { opacity: "0", transform: "translatex(80px)" },
+          to: { oapcity: "1", transform: "translatex(0)" },
+        },
+      },
     },
   },
   plugins: [],

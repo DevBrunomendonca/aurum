@@ -41,15 +41,21 @@ const Footer = () => {
           </Link>
           <Link
             className="text-sm text-white transition-all delay-75 hover:text-yellow-color"
-            href="/produtos"
+            href="/servicos"
           >
-            Produtos
+            Serviços
           </Link>
           <Link
             className="text-sm text-white transition-all delay-75 hover:text-yellow-color"
             href="/contato"
           >
             Contato
+          </Link>
+          <Link
+            className="text-sm text-white transition-all delay-75 hover:text-yellow-color"
+            href="/workshop"
+          >
+            Workshop
           </Link>
         </div>
         <div className="flex w-full flex-col gap-4">
@@ -90,9 +96,9 @@ const Footer = () => {
           </h4>
           <a
             className="text-sm text-white transition-all delay-75 hover:text-yellow-color"
-            href="tel:6234136038"
+            href="tel: 6235832540"
           >
-            (62) 3413 - 6038
+            (62) 3583-2540
           </a>
           <a
             className="text-sm text-white transition-all delay-75 hover:text-yellow-color"

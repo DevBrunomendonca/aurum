@@ -1,4 +1,4 @@
-import { ArrowRight, Play } from "lucide-react"
+import { Play } from "lucide-react"
 import Image from "next/image"
 import React from "react"
 
@@ -17,26 +17,21 @@ const VideoInstitutional = () => {
               Dê o Próximo Passo Rumo ao Sucesso
             </h2>
             <p className="text-start text-sm text-black">
-              Inscreva-se para nossa turma presencial de pessoas que decidiram
-              se profissionalizar no mercado.
+              Saiba como a Aurum pode te ajudar a trilhar seu caminho no Mercado
+              Financeiro da forma correta.
             </p>
-            <div className="flex w-full max-w-[480px] flex-col items-center justify-between gap-4 md:flex-row">
-              <a
-                className="mx-auto w-full max-w-[380px] rounded-md bg-black px-8 py-3 text-center text-yellow-color transition-all delay-75 hover:bg-[#282727]"
-                href=""
-              >
-                <button>Faça parte dos 5%</button>
-              </a>
-              <a className="group/edit w-full text-black" href="">
-                <button className="flex w-full items-center justify-center gap-1 text-center">
-                  Saiba mais{" "}
-                  <ArrowRight
-                    className="transition-all delay-75 group-hover/edit:translate-x-1"
-                    color="#000"
-                  />
-                </button>
-              </a>
-            </div>
+            <a
+              className="flex w-full max-w-[380px] items-center justify-center gap-4 rounded-md bg-black px-8 py-3 text-center text-yellow-color transition-all delay-75 hover:bg-[#282727]"
+              href=""
+            >
+              <Image
+                width={16}
+                height={16}
+                src="/icone-wtpp-y.svg"
+                alt="Icone WhatsApp"
+              />
+              <button>Saiba mais</button>
+            </a>
           </div>
           <div className="w-full">
             <Image
