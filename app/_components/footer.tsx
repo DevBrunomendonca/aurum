@@ -11,11 +11,20 @@ const Footer = () => {
           <Logo />
           <div className="flex items-center gap-2">
             <BtnIcon
+              hrefBtn="https://www.instagram.com/aurum.cap/"
               srcImage="/icone-instagram.svg"
               altImage="Icone Instagram"
             />
-            <BtnIcon srcImage="/icone-discord.svg" altImage="Icone Discord" />
-            <BtnIcon srcImage="/icone-linkedin.svg" altImage="Icone Linkedin" />
+            <BtnIcon
+              hrefBtn="https://discord.gg/aurumcapital"
+              srcImage="/icone-discord.svg"
+              altImage="Icone Discord"
+            />
+            <BtnIcon
+              hrefBtn="https://www.linkedin.com/company/somosaurumcapital/"
+              srcImage="/icone-linkedin.svg"
+              altImage="Icone Linkedin"
+            />
           </div>
           <a href="#">
             <button className="border-b-[1px] border-white text-sm text-white transition-all delay-75 hover:border-yellow-color hover:text-yellow-color">
@@ -41,15 +50,21 @@ const Footer = () => {
           </Link>
           <Link
             className="text-sm text-white transition-all delay-75 hover:text-yellow-color"
-            href="/produtos"
+            href="/servicos"
           >
-            Produtos
+            Serviços
           </Link>
           <Link
             className="text-sm text-white transition-all delay-75 hover:text-yellow-color"
             href="/contato"
           >
             Contato
+          </Link>
+          <Link
+            className="text-sm text-white transition-all delay-75 hover:text-yellow-color"
+            href="/workshop"
+          >
+            Workshop
           </Link>
         </div>
         <div className="flex w-full flex-col gap-4">
@@ -90,9 +105,9 @@ const Footer = () => {
           </h4>
           <a
             className="text-sm text-white transition-all delay-75 hover:text-yellow-color"
-            href="tel:6234136038"
+            href="tel: 6235832540"
           >
-            (62) 3413 - 6038
+            (62) 3583-2540
           </a>
           <a
             className="text-sm text-white transition-all delay-75 hover:text-yellow-color"

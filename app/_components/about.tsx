@@ -38,14 +38,19 @@ const About = () => {
           <div className="flex w-full max-w-[480px] flex-col items-center justify-between gap-4 md:flex-row">
             <a
               className="mx-auto flex w-full max-w-[380px] items-center justify-center gap-2 rounded-md bg-yellow-color px-8 py-2 transition-all delay-75 hover:bg-[#D3CB18]"
-              href=""
+              href="https://wa.me/556235832540"
+              target="_blank"
             >
               <Image src="/icone-wtpp.svg" alt="" width={17} height={17} />
               <button className="pt-1 text-center text-sm text-black">
-                Quero me inscrever
+                Fale conosco
               </button>
             </a>
-            <a className="group/edit w-full text-yellow-color" href="">
+            <a
+              className="group/edit w-full text-yellow-color"
+              href="https://wa.me/556235832540"
+              target="_blank"
+            >
               <button className="flex w-full items-center justify-center gap-1 text-center">
                 Saiba mais{" "}
                 <ArrowRight

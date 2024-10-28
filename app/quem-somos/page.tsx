@@ -1,7 +1,6 @@
 import Image from "next/image"
 import React from "react"
 import CardTeam from "../_components/card-team"
-import { Play } from "lucide-react"
 
 const AboutPage = () => {
   return (
@@ -58,43 +57,11 @@ const AboutPage = () => {
             Time de <span className="text-yellow-color">especialistas</span>
           </h2>
           <div className="grid w-full grid-cols-1 place-items-center items-center gap-8 md:grid-cols-2 lg:grid-cols-3">
-            <CardTeam
-              srcImage="/perfil-1.png"
-              titleCard="Adriano Camargo"
-              descriptionCard="Et voluptatum molestiae et omnis veniam qui necessitatibus sapiente et eveniet odit ab quae vitae? Quo nemo dignissimos ut reiciendis iure et enim veritatis vel mollitia quae ex eveniet dicta in voluptates odit!"
-            />
-            <CardTeam
-              srcImage="/perfil-4.png"
-              titleCard="Caio Henrique"
-              descriptionCard="Et voluptatum molestiae et omnis veniam qui necessitatibus sapiente et eveniet odit ab quae vitae? Quo nemo dignissimos ut reiciendis iure et enim veritatis vel mollitia quae ex eveniet dicta in voluptates odit!"
-            />
-            <CardTeam
-              srcImage="/perfil-5.png"
-              titleCard="Ismael Guimarães"
-              descriptionCard="Et voluptatum molestiae et omnis veniam qui necessitatibus sapiente et eveniet odit ab quae vitae? Quo nemo dignissimos ut reiciendis iure et enim veritatis vel mollitia quae ex eveniet dicta in voluptates odit!"
-            />
-            <CardTeam
-              srcImage="/perfil-3.png"
-              titleCard="Thiago Evangelista"
-              descriptionCard="Et voluptatum molestiae et omnis veniam qui necessitatibus sapiente et eveniet odit ab quae vitae? Quo nemo dignissimos ut reiciendis iure et enim veritatis vel mollitia quae ex eveniet dicta in voluptates odit!"
-            />
-            <CardTeam
-              srcImage="/perfil-6.png"
-              titleCard="Urbano Paiva"
-              descriptionCard="Et voluptatum molestiae et omnis veniam qui necessitatibus sapiente et eveniet odit ab quae vitae? Quo nemo dignissimos ut reiciendis iure et enim veritatis vel mollitia quae ex eveniet dicta in voluptates odit!"
-            />
-            <CardTeam
-              srcImage="/perfil-2.png"
-              titleCard="Wagner Luiz"
-              descriptionCard="Et voluptatum molestiae et omnis veniam qui necessitatibus sapiente et eveniet odit ab quae vitae? Quo nemo dignissimos ut reiciendis iure et enim veritatis vel mollitia quae ex eveniet dicta in voluptates odit!"
-            />
-          </div>
-        </div>
-      </section>
-      <section>
-        <div className="flex min-h-[600px] items-center justify-center bg-[url('/banner-video.png')] bg-cover bg-center bg-no-repeat">
-          <div className="rounded-full bg-white p-4">
-            <Play color="#F3E902" size={40} />
+            <CardTeam srcImage="/perfil-3.png" titleCard="Caio Henrique" />
+            <CardTeam srcImage="/perfil-4.png" titleCard="Ismael Guimarães" />
+            <CardTeam srcImage="/perfil-2.png" titleCard="Thiago Evangelista" />
+            <CardTeam srcImage="/perfil-5.png" titleCard="Urbano Paiva" />
+            <CardTeam srcImage="/perfil-1.png" titleCard="Wagner Luiz" />
           </div>
         </div>
       </section>

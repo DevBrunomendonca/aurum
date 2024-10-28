@@ -18,24 +18,35 @@ const ContactPage = () => {
             <div>
               <h2 className="text-base text-white">Canais de atendimento:</h2>
               <div className="flex flex-col gap-3 pt-3">
-                <a className="flex items-center gap-1 text-[#969696]" href="#">
+                <a
+                  className="flex w-full items-center justify-center gap-2 rounded-lg bg-yellow-color p-4"
+                  href="https://wa.me/556235832540"
+                  target="_blank"
+                >
                   <Image
-                    src="/icone-wtpp-y.svg"
-                    alt="icone whatsapp"
+                    src="/icone-wtpp.svg"
+                    alt="icone instagram"
                     width={22}
                     height={22}
                   />
-                  (62) 9865-4321
+                  <button className="text-center text-base font-medium text-black">
+                    Instagram
+                  </button>
                 </a>
-                <a className="flex items-center gap-1 text-[#969696]" href="#">
+                <a
+                  className="flex w-full items-center justify-center gap-2 rounded-lg bg-yellow-color p-4"
+                  href="https://www.instagram.com/aurum.cap/"
+                  target="_blank"
+                >
                   <Image
-                    src="/icone-map.svg"
-                    alt="icone whatsapp"
-                    width={16}
+                    src="/icone-insta.svg"
+                    alt="icone instagram"
+                    width={22}
                     height={22}
                   />
-                  Lorem ipsum dolor sit amet consectetur. Ut tellus nam lacinia
-                  augue sollicitudin. Elit pellentesque.
+                  <button className="text-center text-base font-medium text-black">
+                    Instagram
+                  </button>
                 </a>
               </div>
             </div>
@@ -91,21 +102,10 @@ const ContactPage = () => {
                 placeholder="Fale um pouco sobre o que você esta buscando..."
               ></textarea>
             </div>
-            <button className="w-full rounded-lg bg-yellow-color px-4 py-2 text-center text-sm text-black">
+            <button className="w-full rounded-lg bg-yellow-color p-4 text-center text-sm text-black">
               Enviar Mensagem
             </button>
           </div>
-        </div>
-      </section>
-      <section>
-        <div>
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3820.538322196867!2d-49.307714588289635!3d-16.749872247143124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935ef72fbbf1bed5%3A0x2c49090e75daee3!2sEdif%C3%ADcio%20Montreal%20Office!5e0!3m2!1spt-BR!2sbr!4v1729013179001!5m2!1spt-BR!2sbr"
-            className="h-[450px] w-full border-0"
-            allowFullScreen
-            loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-          ></iframe>
         </div>
       </section>
     </>
