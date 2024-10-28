@@ -11,11 +11,20 @@ const Footer = () => {
           <Logo />
           <div className="flex items-center gap-2">
             <BtnIcon
+              hrefBtn="https://www.instagram.com/aurum.cap/"
               srcImage="/icone-instagram.svg"
               altImage="Icone Instagram"
             />
-            <BtnIcon srcImage="/icone-discord.svg" altImage="Icone Discord" />
-            <BtnIcon srcImage="/icone-linkedin.svg" altImage="Icone Linkedin" />
+            <BtnIcon
+              hrefBtn="https://discord.gg/aurumcapital"
+              srcImage="/icone-discord.svg"
+              altImage="Icone Discord"
+            />
+            <BtnIcon
+              hrefBtn="https://www.linkedin.com/company/somosaurumcapital/"
+              srcImage="/icone-linkedin.svg"
+              altImage="Icone Linkedin"
+            />
           </div>
           <a href="#">
             <button className="border-b-[1px] border-white text-sm text-white transition-all delay-75 hover:border-yellow-color hover:text-yellow-color">

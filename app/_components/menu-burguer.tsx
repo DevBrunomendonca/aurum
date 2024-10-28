@@ -1,5 +1,7 @@
+import Link from "next/link"
 import Logo from "./logo"
 import { X } from "lucide-react"
+import Image from "next/image"
 
 interface MenuBurguerProps {
   closeMenu: () => void
@@ -19,36 +21,71 @@ const MenuBurguer = ({ closeMenu }: MenuBurguerProps) => {
           />
         </div>
         <nav className="flex flex-col items-center justify-center gap-8 pt-8">
-          <ul className="flex flex-col items-center gap-8">
-            <a onClick={closeMenu} href="#home">
-              <li className="text-base text-white transition delay-150 hover:text-[#F3E902]">
-                Início
-              </li>
-            </a>
-            <a onClick={closeMenu} href="#about">
-              <li className="text-base text-white transition delay-150 hover:text-[#F3E902]">
-                Sobre o whorkshop
-              </li>
-            </a>
-            <a onClick={closeMenu} href="#speaker">
-              <li className="text-base text-white transition delay-150 hover:text-[#F3E902]">
-                Palestrantes
-              </li>
-            </a>
-            <a onClick={closeMenu} href="#location">
-              <li className="text-base text-white transition delay-150 hover:text-[#F3E902]">
-                Localização
-              </li>
-            </a>
+          <ul className="flex flex-col items-center gap-4">
+            <Link onClick={closeMenu} className="text-base text-white" href="/">
+              <li>Home</li>
+            </Link>
+            <Link
+              onClick={closeMenu}
+              className="text-base text-white"
+              href="/quem-somos"
+            >
+              <li>Quem Somos</li>
+            </Link>
+            <Link
+              onClick={closeMenu}
+              className="text-base text-white"
+              href="/servicos"
+            >
+              <li>Serviços</li>
+            </Link>
+            <Link
+              onClick={closeMenu}
+              className="text-base text-white"
+              href="/contato"
+            >
+              <li>Contato</li>
+            </Link>
+            <Link
+              onClick={closeMenu}
+              className="text-base text-white"
+              href="/workshop"
+            >
+              <li>Workshop</li>
+            </Link>
           </ul>
-          <a
-            onClick={closeMenu}
-            href="https://checkout.doppus.app/28256588/"
-            target="_blank"
-            className="mx-auto w-full max-w-[480px] rounded-md bg-[#F3E902] px-8 py-2 text-center text-base text-black"
-          >
-            Quero participar
-          </a>
+          <div className="flex w-full max-w-[380px] flex-col gap-3 pt-3">
+            <a
+              className="flex w-full items-center justify-center gap-2 rounded-lg bg-yellow-color p-4"
+              href="#"
+              onClick={closeMenu}
+            >
+              <Image
+                src="/icone-wtpp.svg"
+                alt="icone instagram"
+                width={22}
+                height={22}
+              />
+              <button className="text-center text-base font-medium text-black">
+                Instagram
+              </button>
+            </a>
+            <a
+              className="flex w-full items-center justify-center gap-2 rounded-lg bg-yellow-color p-4"
+              href="#"
+              onClick={closeMenu}
+            >
+              <Image
+                src="/icone-insta.svg"
+                alt="icone instagram"
+                width={22}
+                height={22}
+              />
+              <button className="text-center text-base font-medium text-black">
+                Instagram
+              </button>
+            </a>
+          </div>
         </nav>
       </div>
     </div>

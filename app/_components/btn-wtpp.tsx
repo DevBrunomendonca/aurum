@@ -5,7 +5,7 @@ import React from "react"
 const BtnWtpp = () => {
   return (
     <a
-      href="https://wa.link/w4y59v"
+      href="https://wa.me/556235832540"
       target="_blank"
       className="fixed bottom-[5vh] right-2 z-50 h-12 w-12"
     >

@@ -20,7 +20,8 @@ const ContactPage = () => {
               <div className="flex flex-col gap-3 pt-3">
                 <a
                   className="flex w-full items-center justify-center gap-2 rounded-lg bg-yellow-color p-4"
-                  href="#"
+                  href="https://wa.me/556235832540"
+                  target="_blank"
                 >
                   <Image
                     src="/icone-wtpp.svg"
@@ -34,7 +35,8 @@ const ContactPage = () => {
                 </a>
                 <a
                   className="flex w-full items-center justify-center gap-2 rounded-lg bg-yellow-color p-4"
-                  href="#"
+                  href="https://www.instagram.com/aurum.cap/"
+                  target="_blank"
                 >
                   <Image
                     src="/icone-insta.svg"

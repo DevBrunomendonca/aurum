@@ -37,10 +37,11 @@ const ListNavHeader = () => {
         </Link>
       </ul>
       <a
-        href="#"
+        href="https://wa.me/556235832540"
+        target="_blank"
         className="rounded-md bg-yellow-color px-8 py-2 transition-all delay-75 hover:bg-[#D3CB18]"
       >
-        <button className="text-sm text-black">Quero me inscrever</button>
+        <button className="text-sm text-black">Fale conosco</button>
       </a>
     </nav>
   )

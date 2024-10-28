@@ -3,7 +3,7 @@ import CardSpeakerWorkshop from "./card-speaker-workshop"
 const SpeakerWorkshop = () => {
   return (
     <section id="speaker" className="mb-56 px-4 py-16">
-      <div className="mx-auto flex max-w-6xl flex-col items-center gap-8">
+      <div className="mx-auto flex max-w-7xl flex-col items-center gap-8">
         <div className="flex flex-col space-y-1">
           <h2 className="text-center font-[family-name:var(--font-modani-arabic-bold)] text-4xl text-white">
             Palestrantes<span className="text-[#F3E902]"> Confirmados!</span>
@@ -13,7 +13,7 @@ const SpeakerWorkshop = () => {
             mercado de ações
           </p>
         </div>
-        <div className="grid grid-cols-1 place-items-center items-start justify-center gap-6 sm:grid-cols-2 lg:grid-cols-5">
+        <div className="flex w-full flex-wrap items-center justify-center gap-6 md:items-start">
           <CardSpeakerWorkshop
             srcProfile="/perfil-1.png"
             dataCard="Sáb 19/10"

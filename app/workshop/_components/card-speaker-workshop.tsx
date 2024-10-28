@@ -19,14 +19,15 @@ const CardSpeakerWorkshop = ({
   description,
 }: CardSpeakerProps) => {
   return (
-    <div className="mx-auto flex w-full max-w-[280px] flex-col items-center space-y-2 md:items-start">
-      <div className="rounded-2xl border-[1px] border-[#F3E902] p-3">
+    <div className="mx-auto flex w-full max-w-[300px] flex-col items-center space-y-2 md:items-start">
+      <div className="w-full rounded-2xl border-[1px] border-[#F3E902] p-3">
         <Image
           src={srcProfile}
           alt={`Icone Perfil ${nameProfile}`}
-          height={144}
-          width={144}
-          className="w-full"
+          height={0}
+          width={0}
+          sizes="100vh"
+          className="h-auto w-full"
         />
       </div>
       <h3 className="font-[family-name:var(--font-modani-arabic-bold)] text-lg text-[#F3E902]">

@@ -1,15 +1,10 @@
-import { Play } from "lucide-react"
 import Image from "next/image"
 import React from "react"
 
 const VideoInstitutional = () => {
   return (
     <section>
-      <div className="flex min-h-[600px] items-center justify-center bg-[url('/banner-video.png')] bg-cover bg-center bg-no-repeat">
-        <div className="rounded-full bg-white p-4">
-          <Play color="#F3E902" size={40} />
-        </div>
-      </div>
+      <div className="flex min-h-[600px] items-center justify-center bg-[url('/banner-video.png')] bg-cover bg-center bg-no-repeat"></div>
       <div className="bg-yellow-color px-4 py-16">
         <div className="mx-auto flex max-w-6xl flex-col items-center gap-2 md:flex-row">
           <div className="flex w-full flex-col items-start gap-6">
@@ -22,7 +17,8 @@ const VideoInstitutional = () => {
             </p>
             <a
               className="flex w-full max-w-[380px] items-center justify-center gap-4 rounded-md bg-black px-8 py-3 text-center text-yellow-color transition-all delay-75 hover:bg-[#282727]"
-              href=""
+              href="https://wa.me/556235832540"
+              target="_blank"
             >
               <Image
                 width={16}

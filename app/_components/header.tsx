@@ -41,7 +41,7 @@ const Header = () => {
     }
   }, [handleResize])
   return (
-    <header className="absolute left-0 right-0 top-0 mx-auto flex max-w-6xl items-center justify-between p-4">
+    <header className="absolute left-0 right-0 top-0 z-50 mx-auto flex max-w-6xl items-center justify-between p-4">
       <Logo />
       <ListNavHeader />
       <Menu
