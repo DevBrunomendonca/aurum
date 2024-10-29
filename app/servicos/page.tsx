@@ -30,7 +30,7 @@ const ProductsPage = () => {
       </section>
       <section className="px-4 py-">
         <div className="mx-auto max-w-7xl space-y-4">
-          <h2 className="font-[family-name:var(--font-modani-arabic-bold)] text-5xl text-white">
+          <h2 className="font-[family-name:var(--font-modani-arabic-bold)] text-5xl text-white text-center">
             O que você vai <span className="text-yellow-color">aprender</span>?
           </h2>
           <div className="flex w-full flex-wrap items-end justify-center gap-4">
