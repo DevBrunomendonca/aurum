@@ -30,7 +30,7 @@ const ContactPage = () => {
                     height={22}
                   />
                   <button className="text-center text-base font-medium text-black">
-                    Instagram
+                    WhatsApp
                   </button>
                 </a>
                 <a
