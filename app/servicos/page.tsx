@@ -7,7 +7,7 @@ const ProductsPage = () => {
   return (
     <>
       <section className="h-[600px] bg-[url('/banner-main-products-m.webp')] bg-cover bg-right-top bg-no-repeat px-4 md:bg-[url('/banner-main-products-d.webp')]">
-        <div className="mx-auto flex h-full max-w-6xl flex-col items-start justify-center gap-4">
+      <div className="mx-auto flex h-full max-w-6xl flex-col items-start justify-center gap-4">
           <h1 className="max-w-[1080px] text-start text-6xl text-white md:text-10x1">
             Domine o Mercado Financeiro{" "}
             com o método da {" "}
@@ -29,11 +29,11 @@ const ProductsPage = () => {
         </div>
       </section>
       <section className="px-4 py-4">
-        <div className="mx-auto max-w-7xl space-y-10">
-          <h2 className="font-[family-name:var(--font-modani-arabic-bold)] text-5xl text-white text-center">
+      <div className="mx-auto max-w-6xl space-y-16">
+          <h2 className="font-[family-name:var(--font-modani-arabic-bold)] text-5xl text-white">
             O que você vai <span className="text-yellow-color">aprender</span>?
           </h2>
-          <div className="flex w-full flex-wrap items-end justify-center gap-4">
+          <div className="flex w-full flex-wrap md:flex-nowrap items-end justify-between gap-4">
             <CardStage
               titleCard="Etapa 1º"
               tagsCard={["Análise Quantitativa", "Abordagem Institucional"]}
@@ -128,7 +128,7 @@ const ProductsPage = () => {
               <h4 className="font-[family-name:var(--font-modani-arabic-bold)] text-base text-yellow-color">
                 | Seja Protagonista do Seu Futuro{" "}
               </h4>
-              <p className="text-[#969696]">
+              <p className="text-white">
                 Acreditamos que o conhecimento é a chave para o sucesso
                 financeiro. Ao se juntar à nossa Academia, você terá acesso a
                 ferramentas e cursos que capacitarão você a tomar decisões
@@ -136,36 +136,6 @@ const ProductsPage = () => {
                 financeiro.
               </p>
             </div>
-          </div>
-        </div>
-      </section>
-      <section className="px-4 py-8">
-        <div className="mx-auto w-full max-w-7xl space-y-8">
-          <div className="max-w-[495px] space-y-2">
-            <h2 className="font-[family-name:var(--font-modani-arabic-bold)] text-4xl text-white">
-              Alunos <span className="text-yellow-color">Satisfeitos</span>
-            </h2>
-            <p className="text-sm text-[#969696]">
-              Confira o que nossos alunos têm a dizer sobre a Aurum Capital.
-            </p>
-          </div>
-          <div className="flex w-full justify-start gap-6 overflow-x-scroll lg:overflow-auto [&::-webkit-scrollbar]:hidden">
-            <CardClients
-              name="Ian Javier"
-              coment="Gostei muito do objetivo da empresa, confio nela e no Caio, mas principalmente vejo verdade na operação de vocês. Representaram um achado raro pra mim."
-            />
-            <CardClients
-              name="Fernanda Araújo"
-              coment="A Aurum Capital é um diferencial muito grande no Mercado, o acompanhamento feito com os alunos eu nunca vi em nenhum outro lugar. O nosso mentor passa tudo com clareza e nos proporciona o melhor estudo do mercado."
-            />
-            <CardClients
-              name="Isac"
-              coment="O estudo foi ótimo e aprendi muita coisa boa pra começar a lucrar no mercado financeiro."
-            />
-            <CardClients
-              name="Kleiton Xavier"
-              coment="Minha visão mudou totalmente depois da Aurum Capital, o estudo e a forma que nos ensinam é totalmente única no mercado até hoje, indico muito!"
-            />
           </div>
         </div>
       </section>
