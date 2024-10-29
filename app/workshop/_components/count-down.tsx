@@ -25,7 +25,7 @@ const Countdown: React.FC = () => {
   })
 
   useEffect(() => {
-    const targetDate = new Date("2024-10-19T08:00:00")
+    const targetDate = new Date("2024-11-23T08:00:00")
 
     const updateCountdown = () => {
       const now = new Date()
