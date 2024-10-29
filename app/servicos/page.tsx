@@ -185,12 +185,16 @@ const ProductsPage = () => {
             Se você quer levar seus investimentos a um novo patamar e garantir a
             proteção do seu patrimônio, inscreva-se no curso
           </p>
-          <Image
-            src="/arrow-cool-down.svg"
-            alt="icone seta para cima"
-            width={254}
-            height={203}
-          />
+<a href="https://aurum.themembers.com.br/showcase" target="_blank" rel="noopener noreferrer">
+  <Image
+    src="/arrow-cool-down.svg"
+    alt="icone seta para cima"
+    width={254}
+    height={203}
+  />
+</a>
+
+          
         </div>
       </section>
     </>
