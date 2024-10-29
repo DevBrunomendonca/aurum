@@ -28,8 +28,8 @@ const ProductsPage = () => {
           </p>
         </div>
       </section>
-      <section className="px-4 py-">
-        <div className="mx-auto max-w-7xl space-y-4">
+      <section className="px-4 py-4">
+        <div className="mx-auto max-w-7xl space-y-10">
           <h2 className="font-[family-name:var(--font-modani-arabic-bold)] text-5xl text-white text-center">
             O que você vai <span className="text-yellow-color">aprender</span>?
           </h2>
