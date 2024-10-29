@@ -6,21 +6,14 @@ import CardClients from "./_components/card-clients"
 const ProductsPage = () => {
   return (
     <>
-      <section className="h-[800px] bg-[url('/banner-main-products-m.webp')] bg-cover bg-right-top bg-no-repeat px-4 md:bg-[url('/banner-main-products-d.webp')]">
+      <section className="h-[600px] bg-[url('/banner-main-products-m.webp')] bg-cover bg-right-top bg-no-repeat px-4 md:bg-[url('/banner-main-products-d.webp')]">
         <div className="mx-auto flex h-full max-w-6xl flex-col items-start justify-center gap-4">
-          <h1 className="max-w-[820px] text-start text-4xl text-white md:text-7xl">
+          <h1 className="max-w-[1080px] text-start text-6xl text-white md:text-10x1">
             Domine o Mercado Financeiro{" "}
-            <Image
-              className="inline pr-4"
-              src="/icone-money.svg"
-              alt=""
-              width={60}
-              height={60}
-            />
-            com o{" "}
-            <span className="text-yellow-color">método da Aurum Capital</span>
+            com o método da {" "}
+            <span className="text-yellow-color">Aurum Capital</span>
           </h1>
-          <p className="max-w-[620px] text-sm text-white opacity-50">
+          <p className="max-w-[1080px] text-lg text-white opacity-75 mt-4">
             Esta Academia foi desenvolvida para proporcionar uma compreensão
             profunda e prática dos mercados financeiros, utilizando estratégias
             baseadas em análise quantitativa e cálculos matemáticos. Na nossa
@@ -35,9 +28,9 @@ const ProductsPage = () => {
           </p>
         </div>
       </section>
-      <section className="px-4 py-8">
-        <div className="mx-auto max-w-7xl space-y-8">
-          <h2 className="font-[family-name:var(--font-modani-arabic-bold)] text-4xl text-white">
+      <section className="px-4 py-">
+        <div className="mx-auto max-w-7xl space-y-4">
+          <h2 className="font-[family-name:var(--font-modani-arabic-bold)] text-5xl text-white">
             O que você vai <span className="text-yellow-color">aprender</span>?
           </h2>
           <div className="flex w-full flex-wrap items-end justify-center gap-4">
@@ -79,7 +72,7 @@ const ProductsPage = () => {
               <h2 className="font-[family-name:var(--font-modani-arabic-bold)] text-4xl text-white">
                 Para quem é esse curso?
               </h2>
-              <p className="text-sm text-white opacity-50">
+              <p className="text-sm text-white opacity-50 mt-4">
                 Esta Academia é voltada para todos que desejam aprender e se
                 desenvolver no mercado financeiro. Desde iniciantes que buscam
                 uma introdução sólida aos conceitos fundamentais, até traders
@@ -185,7 +178,7 @@ const ProductsPage = () => {
             Se você quer levar seus investimentos a um novo patamar e garantir a
             proteção do seu patrimônio, inscreva-se no curso
           </p>
-<a href="https://aurum.themembers.com.br/showcase" target="_blank" rel="noopener noreferrer">
+          <a href="https://aurum.themembers.com.br/showcase" target="_blank" rel="noopener noreferrer">
   <Image
     src="/arrow-cool-down.svg"
     alt="icone seta para cima"
@@ -193,8 +186,6 @@ const ProductsPage = () => {
     height={203}
   />
 </a>
-
-          
         </div>
       </section>
     </>
