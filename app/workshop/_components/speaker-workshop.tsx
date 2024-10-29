@@ -45,7 +45,7 @@ const SpeakerWorkshop = () => {
           />
         </div>
         <a
-          href="https://checkout.doppus.app/28256588/"
+          href="https://checkout.doppus.app/62766955"
           target="_blank"
           className="mx-auto w-full max-w-96 rounded-md bg-[#F3E902] px-8 py-4 text-center text-black"
         >
