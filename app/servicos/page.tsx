@@ -5,12 +5,13 @@ const ProductsPage = () => {
   return (
     <>
       <section className="h-[600px] bg-[url('/banner-main-products-m.webp')] bg-cover bg-right-top bg-no-repeat px-4 md:bg-[url('/banner-main-products-d.webp')]">
-        <div className="mx-auto flex h-full max-w-6xl flex-col items-start justify-center gap-4">
-          <h1 className="md:text-10x1 max-w-[1080px] text-start text-6xl text-white">
-            Domine o Mercado Financeiro com o método da{" "}
+      <div className="mx-auto flex h-full max-w-6xl flex-col items-start justify-center gap-4">
+          <h1 className="max-w-[1080px] text-start text-6xl text-white md:text-10x1">
+            Domine o Mercado Financeiro{" "}
+            com o método da {" "}
             <span className="text-yellow-color">Aurum Capital</span>
           </h1>
-          <p className="mt-4 max-w-[1080px] text-lg text-white opacity-75">
+          <p className="max-w-[1080px] text-lg text-white opacity-75 mt-4">
             Esta Academia foi desenvolvida para proporcionar uma compreensão
             profunda e prática dos mercados financeiros, utilizando estratégias
             baseadas em análise quantitativa e cálculos matemáticos. Na nossa
@@ -26,11 +27,11 @@ const ProductsPage = () => {
         </div>
       </section>
       <section className="px-4 py-4">
-        <div className="mx-auto max-w-6xl space-y-16">
+      <div className="mx-auto max-w-6xl space-y-16">
           <h2 className="font-[family-name:var(--font-modani-arabic-bold)] text-5xl text-white">
             O que você vai <span className="text-yellow-color">aprender</span>?
           </h2>
-          <div className="flex w-full flex-wrap items-end justify-between gap-4 md:flex-nowrap">
+          <div className="flex w-full flex-wrap md:flex-nowrap items-end justify-between gap-4">
             <CardStage
               titleCard="Etapa 1º"
               tagsCard={["Análise Quantitativa", "Abordagem Institucional"]}

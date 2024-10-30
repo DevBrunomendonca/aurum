@@ -54,7 +54,7 @@ const AboutPage = () => {
       <section className="min-h-[700px] bg-[url('/banner-quem-somos-m-2.webp')] bg-cover bg-center bg-no-repeat px-4 py-16 md:bg-[url('/banner-quem-somos-d-2.webp')]">
         <div className="mx-auto max-w-6xl space-y-8">
           <h2 className="text-center font-[family-name:var(--font-modani-arabic-bold)] text-3xl text-white">
-            Time de <span className="text-yellow-color">especialistas</span>
+            Time de <span className="text-yellow-color">Especialistas</span>
           </h2>
           <div className="grid w-full grid-cols-1 place-items-center items-center gap-8 md:grid-cols-2 lg:grid-cols-3">
             <CardTeam srcImage="/perfil-3.png" titleCard="Caio Henrique" />

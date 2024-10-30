@@ -9,7 +9,7 @@ const ListNavHeader = () => {
           className="text-sm text-white transition-all delay-75 hover:text-yellow-color"
           href="/"
         >
-          <li>Home</li>
+          <li>Início</li>
         </Link>
         <Link
           className="text-sm text-white transition-all delay-75 hover:text-yellow-color"
@@ -21,7 +21,7 @@ const ListNavHeader = () => {
           className="text-sm text-white transition-all delay-75 hover:text-yellow-color"
           href="/servicos"
         >
-          <li>Serviços</li>
+          <li>Área de Membros</li>
         </Link>
         <Link
           className="text-sm text-white transition-all delay-75 hover:text-yellow-color"

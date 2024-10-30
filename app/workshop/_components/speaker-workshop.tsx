@@ -16,21 +16,21 @@ const SpeakerWorkshop = () => {
         <div className="flex w-full flex-wrap items-center justify-center gap-6 md:items-start">
           <CardSpeakerWorkshop
             srcProfile="/perfil-1.png"
-            dataCard="Sáb 19/10"
+            dataCard="Sáb 23/11"
             timeCard="9:00 às 9:30"
             nameProfile="WAGNER LUIZ"
             description="Oportunidades: Empreendendo no Mercado Financeiro."
           />
           <CardSpeakerWorkshop
             srcProfile="/perfil-2.png"
-            dataCard="Sáb 19/10"
+            dataCard="Sáb 23/11"
             timeCard="9:30 às 10:00"
             nameProfile="THIAGO EVANGELISTA"
             description="Primeiros Passos: Sobrevivência ao Crescimento."
           />
           <CardSpeakerWorkshop
             srcProfile="/perfil-3.png"
-            dataCard="Sáb 19/10"
+            dataCard="Sáb 23/11"
             timeCard="10:00 às 10:30"
             timeCardTwo="11:00 às 11:20"
             nameProfile="CAIO HENRIQUE"
@@ -38,14 +38,14 @@ const SpeakerWorkshop = () => {
           />
           <CardSpeakerWorkshop
             srcProfile="/perfil-4.png"
-            dataCard="Sáb 19/10"
+            dataCard="Sáb 23/11"
             timeCard="11:20 às 11:45"
             nameProfile="ISMAEL GUIMARÃES"
             description="Gerenciamento de Risco: o Segredo dos 5% que vencem."
           />
         </div>
         <a
-          href="https://checkout.doppus.app/28256588/"
+          href="https://checkout.doppus.app/62766955"
           target="_blank"
           className="mx-auto w-full max-w-96 rounded-md bg-[#F3E902] px-8 py-4 text-center text-black"
         >
