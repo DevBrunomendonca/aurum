@@ -19,23 +19,21 @@ const AboutPage = () => {
             </h1>
             <div className="space-y-2">
               <p className="text-sm text-white opacity-50">
-                Muitas empresas com promessas de ganhos rápidos e riqueza fácil
-                se popularizaram no mercado, principalmente pós-pandemia, e
-                muitas pessoas se frustraram, pois investiram o que tinha e não
-                obtiveram retorno.{" "}
+                Inúmeras empresas com promessas de ganhos rápidos e riqueza fácil popularizaram-se no mercado, 
+                principalmente pós-pandemia. Dessa forma, muitas pessoas se frustraram, 
+                visto que investiram tudo que tinham e não obtiveram retorno.{" "}
               </p>
               <p className="text-sm text-white opacity-50">
-                Nós viemos para mudar esse paradigma, para mostrar e ensinar que
-                é possível sim fazer dinheiro nesse Mercado, porém, que não é
-                algo fácil, de rápido retorno, demanda estudo, empenho,
-                compreensão que existe risco de percas e como gerir esse risco.
+                Nós, viemos para mudar esse paradigma, mostrar e ensinar que é possível sim, 
+                fazer dinheiro nesse Mercado. É fato que não é algo fácil, de rápido retorno, 
+                pois demanda estudo, empenho e compreensão acerca dos riscos de perdas e sobretudo, 
+                aprender como gerir esses riscos.
               </p>
               <p className="text-sm text-white opacity-50">
-                Somos um conjunto de especialistas que atuaram nas mesas de um
-                dos maiores bancos do país, e decidiu abrir mão da estabilidade
-                para fundar uma Instituição de Ensino do Mercado Financeiro,
-                para trazer mais pessoas para essa profissão, pessoas dedicadas,
-                comprometidas com essa profissão.
+                Somos um time de especialistas que atuamos nas mesas de um dos maiores bancos do país, 
+                mas que decidimos abrir mão da estabilidade para fundarmos uma Instituição de Ensino do Mercado Financeiro – a Aurum Capital - 
+                para trazermos para esse mundo rico de possibilidades pessoas que tenham dedicação, 
+                desejo de mudar de vida, e claro, compromisso coma profissão e o Mercado Financeiro.
               </p>
             </div>
           </div>
