@@ -1,7 +1,5 @@
 import Image from "next/image"
 import CardStage from "./_components/card-stage"
-//import CardCourse from "./_components/card-course"
-import CardClients from "./_components/card-clients"
 
 const ProductsPage = () => {
   return (
@@ -72,7 +70,7 @@ const ProductsPage = () => {
               <h2 className="font-[family-name:var(--font-modani-arabic-bold)] text-4xl text-white">
                 Para quem é esse curso?
               </h2>
-              <p className="text-sm text-white opacity-50 mt-4">
+              <p className="mt-4 text-sm text-white opacity-50">
                 Esta Academia é voltada para todos que desejam aprender e se
                 desenvolver no mercado financeiro. Desde iniciantes que buscam
                 uma introdução sólida aos conceitos fundamentais, até traders
@@ -148,14 +146,18 @@ const ProductsPage = () => {
             Se você quer levar seus investimentos a um novo patamar e garantir a
             proteção do seu patrimônio, inscreva-se no curso
           </p>
-          <a href="https://aurum.themembers.com.br/showcase" target="_blank" rel="noopener noreferrer">
-  <Image
-    src="/arrow-cool-down.svg"
-    alt="icone seta para cima"
-    width={254}
-    height={203}
-  />
-</a>
+          <a
+            href="https://aurum.themembers.com.br/showcase"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              src="/arrow-cool-down.svg"
+              alt="icone seta para cima"
+              width={254}
+              height={203}
+            />
+          </a>
         </div>
       </section>
     </>
