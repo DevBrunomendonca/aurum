@@ -1,5 +1,5 @@
-import Image from "next/image";
-import CardStage from "./_components/card-stage";
+import Image from "next/image"
+import CardStage from "./_components/card-stage"
 
 const ProductsPage = () => {
   return (
