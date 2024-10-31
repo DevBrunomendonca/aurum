@@ -4,7 +4,6 @@ import React from "react"
 const VideoInstitutional = () => {
   return (
     <section>
-      <div className="flex min-h-[600px] items-center justify-center bg-[url('/banner-video.png')] bg-cover bg-center bg-no-repeat"></div>
       <div className="bg-yellow-color px-4 py-0">
         <div className="mx-auto flex max-w-6xl flex-col items-center gap-2 md:flex-row">
           <div className="flex w-full flex-col items-start gap-6">
