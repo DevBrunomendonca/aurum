@@ -37,7 +37,7 @@ const MenuBurguer = ({ closeMenu }: MenuBurguerProps) => {
               className="text-base text-white"
               href="/servicos"
             >
-              <li>Serviço</li>
+              <li>Serviços</li>
             </Link>
             <Link
               onClick={closeMenu}
