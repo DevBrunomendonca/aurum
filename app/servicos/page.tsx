@@ -4,25 +4,20 @@ import CardStage from "./_components/card-stage"
 const ProductsPage = () => {
   return (
     <>
-      <section className="h-[600px] bg-[url('/banner-main-products-m.webp')] bg-cover bg-right-top bg-no-repeat px-4 md:bg-[url('/banner-main-products-d.webp')]">
-      <div className="mx-auto flex h-full max-w-6xl flex-col items-start justify-center gap-4">
-          <h1 className="max-w-[1080px] text-start text-6xl text-white md:text-10x1">
+      <section className="h-[600px] bg-[url('/banner-main-products-m.webp')] bg-cover bg-right-top bg-no-repeat px-6 md:bg-[url('/banner-main-products-d.webp')] md:h-[800px]">
+        <div className="mx-auto flex h-full max-w-6xl flex-col items-start justify-center gap-4 md:gap-8">
+          <h1 className="max-w-[1080px] text-start text-4xl text-white md:text-6xl lg:text-7xl">
             Domine o Mercado Financeiro{" "}
-            com o método da {" "}
-            <span className="text-yellow-color">Aurum Capital</span>
+            com o método da <span className="text-yellow-color">Aurum Capital</span>
           </h1>
-          <p className="max-w-[1080px] text-lg text-white opacity-75 mt-4">
+          <p className="max-w-[1080px] text-base text-white opacity-75 mt-4 md:text-lg lg:text-xl">
             Esta Academia foi desenvolvida para proporcionar uma compreensão
             profunda e prática dos mercados financeiros, utilizando estratégias
             baseadas em análise quantitativa e cálculos matemáticos. Na nossa
             comunidade, você não apenas terá acesso a esse conhecimento, mas
             também poderá explorar uma ampla gama de cursos que abrangem
             diversos segmentos do mercado financeiro, todos acessíveis com uma
-            única mensalidade. Com foco em precisão e alta assertividade, nossa
-            proposta é oferecer um ambiente de aprendizado colaborativo, onde
-            você terá todas as ferramentas necessárias para dominar nosso método
-            e alcançar consistência em suas operações. Junte-se a nós e descubra
-            tudo o que precisa para se destacar no mercado.
+            única mensalidade.
           </p>
         </div>
       </section>
