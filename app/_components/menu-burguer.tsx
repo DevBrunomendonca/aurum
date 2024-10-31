@@ -71,21 +71,6 @@ const MenuBurguer = ({ closeMenu }: MenuBurguerProps) => {
                 Instagram
               </button>
             </a>
-            <a
-              className="flex w-full items-center justify-center gap-2 rounded-lg bg-yellow-color p-4"
-              href="#"
-              onClick={closeMenu}
-            >
-              <Image
-                src="/icone-insta.svg"
-                alt="icone instagram"
-                width={22}
-                height={22}
-              />
-              <button className="text-center text-base font-medium text-black">
-                Instagram
-              </button>
-            </a>
            
           </div>
         </nav>
