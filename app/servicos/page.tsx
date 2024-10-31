@@ -1,6 +1,5 @@
 import Image from "next/image";
 import CardStage from "./_components/card-stage";
-// import CardCourse from "./_components/card-course"
 import CardClients from "./_components/card-clients";
 
 const ProductsPage = () => {
