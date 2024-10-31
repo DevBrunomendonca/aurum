@@ -23,7 +23,7 @@ const MenuBurguer = ({ closeMenu }: MenuBurguerProps) => {
         <nav className="flex flex-col items-center justify-center gap-8 pt-8">
           <ul className="flex flex-col items-center gap-4">
             <Link onClick={closeMenu} className="text-base text-white" href="/">
-              <li>Home</li>
+              <li>Início</li>
             </Link>
             <Link
               onClick={closeMenu}
@@ -37,7 +37,7 @@ const MenuBurguer = ({ closeMenu }: MenuBurguerProps) => {
               className="text-base text-white"
               href="/servicos"
             >
-              <li>Serviços</li>
+              <li>Educacional</li>
             </Link>
             <Link
               onClick={closeMenu}
@@ -56,31 +56,10 @@ const MenuBurguer = ({ closeMenu }: MenuBurguerProps) => {
           </ul>
           <div className="flex w-full max-w-[380px] flex-col gap-3 pt-3">
             <a
-              className="flex w-full items-center justify-center gap-2 rounded-lg bg-yellow-color p-4"
-              href="#"
-              onClick={closeMenu}
-            >
-              <Image
-                src="/icone-wtpp.svg"
-                alt="icone instagram"
-                width={22}
-                height={22}
-              />
-              <button className="text-center text-base font-medium text-black">
-                Instagram
-              </button>
+              >
             </a>
             <a
-              className="flex w-full items-center justify-center gap-2 rounded-lg bg-yellow-color p-4"
-              href="#"
-              onClick={closeMenu}
-            >
-              <Image
-                src="/icone-insta.svg"
-                alt="icone instagram"
-                width={22}
-                height={22}
-              />
+              >
               <button className="text-center text-base font-medium text-black">
                 Instagram
               </button>
