@@ -1,4 +1,4 @@
-import Link from "next/link"
+ducacionalimport Link from "next/link"
 import React from "react"
 
 const ListNavHeader = () => {
@@ -21,7 +21,7 @@ const ListNavHeader = () => {
           className="text-sm text-white transition-all delay-75 hover:text-yellow-color"
           href="/servicos"
         >
-          <li>Área de Membros</li>
+          <li>Educacional</li>
         </Link>
         <Link
           className="text-sm text-white transition-all delay-75 hover:text-yellow-color"
