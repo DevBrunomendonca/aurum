@@ -23,7 +23,7 @@ const MenuBurguer = ({ closeMenu }: MenuBurguerProps) => {
         <nav className="flex flex-col items-center justify-center gap-8 pt-8">
           <ul className="flex flex-col items-center gap-4">
             <Link onClick={closeMenu} className="text-base text-white" href="/">
-              <li>Home</li>
+              <li>Início</li>
             </Link>
             <Link
               onClick={closeMenu}
@@ -37,7 +37,7 @@ const MenuBurguer = ({ closeMenu }: MenuBurguerProps) => {
               className="text-base text-white"
               href="/servicos"
             >
-              <li>Serviços</li>
+              <li>Educaional</li>
             </Link>
             <Link
               onClick={closeMenu}
