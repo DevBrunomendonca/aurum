@@ -4,13 +4,13 @@ import React from "react"
 const VideoInstitutional = () => {
   return (
     <section>
-      <div className="bg-yellow-color px-4 py-0">
+      <div className="bg-yellow-color px-4 py-8">
         <div className="mx-auto flex max-w-6xl flex-col items-center gap-2 md:flex-row">
-          <div className="flex w-full flex-col items-start gap-6">
-            <h2 className="text-start font-[family-name:var(--font-modani-arabic-bold)] text-4xl text-black">
-              Dê o Próximo Passo Rumo ao Sucesso
+          <div className="flex w-full flex-col items-center gap-6 flex-grow">
+            <h2 className="text-center font-[family-name:var(--font-modani-arabic-bold)] text-4xl text-black">
+              Dê o Próximo Passo Rumo ao Sucesso!
             </h2>
-            <p className="text-start text-sm text-black">
+            <p className="text-center text-sm text-black">
               Saiba como a Aurum pode te ajudar a trilhar seu caminho no Mercado
               Financeiro da forma correta.
             </p>
@@ -28,15 +28,7 @@ const VideoInstitutional = () => {
               <button>Saiba mais</button>
             </a>
           </div>
-          <div className="w-full">
-            <Image
-              src="/imagem-alvo.webp"
-              alt="Imagem de um alvo"
-              width={660}
-              height={0}
-              className="h-auto"
-            />
-          </div>
+          {/* A <div> vazia foi removida */}
         </div>
       </div>
     </section>
