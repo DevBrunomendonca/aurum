@@ -1,7 +1,6 @@
 import Link from "next/link"
 import Logo from "./logo"
 import { X } from "lucide-react"
-import Image from "next/image"
 
 interface MenuBurguerProps {
   closeMenu: () => void
@@ -55,23 +54,6 @@ const MenuBurguer = ({ closeMenu }: MenuBurguerProps) => {
             </Link>
           </ul>
           <div className="flex w-full max-w-[380px] flex-col gap-3 pt-3">
-          
-            <a
-              className="flex w-full items-center justify-center gap-2 rounded-lg bg-yellow-color p-4"
-              href="#"
-              onClick={closeMenu}
-            >
-              <Image
-                src="/icone-wtpp.svg"
-                alt="icone instagram"
-                width={22}
-                height={22}
-              />
-              <button className="text-center text-base font-medium text-black">
-                Instagram
-              </button>
-            </a>
-           
           </div>
         </nav>
       </div>
